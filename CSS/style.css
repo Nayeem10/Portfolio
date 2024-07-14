@@ -107,15 +107,22 @@ main section {
     font-weight: bold;
 }
 
+.pdiv{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
 .profile-pic {
-    width: 650px;
-    height: auto;
+    /* align-items:end; */
+    width: 80%;
+    /* height: 50%; */
 }
 
 .banner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     margin-left: 100px;
 }
 
@@ -124,6 +131,9 @@ main section {
 }
 
 .banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 580px;
 }
 
