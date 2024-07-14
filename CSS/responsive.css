@@ -1,0 +1,49 @@
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav, .banner, .resume-container, .skills-container, .about-items{
+        flex-direction: column;
+    }
+    nav{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+        /* background-position: center; */
+    }
+    .banner{
+        margin: 10px;
+    }
+ */
+    .profile-pic{
+        width: 100%;
+    }
+    .about{
+        padding: 10px;
+    }
+    .about > p{
+        font-size: .8em;
+    }
+    .about-items .item-description p{
+        margin-top: 0px;
+    }
+    .about-items .item-title p{
+        margin-bottom: 0px;
+    }
+    .resume-container{
+        margin: 20px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 4%;
+    }
+    .footer-col{
+        width: 80%;
+
+    }
+    .skill{
+        width: 80%;
+    }
+}
